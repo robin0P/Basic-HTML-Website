@@ -1,0 +1,51 @@
+body {
+    background-color:rgb(0, 0, 0);
+    color: rgb(3, 255, 3);
+}
+
+.center {
+    margin: auto;
+    width: 150px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 2px;
+    text-align: center;
+}
+
+.bigger {
+    font-size: 30px;
+}
+
+a:link {
+    color: rgb(3, 255, 3); 
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(3,255,3);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#projects {
+    padding-left: 780px;
+    margin: 10px;
+}
